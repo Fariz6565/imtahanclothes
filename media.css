@@ -1,0 +1,75 @@
+@media screen and (max-width:400px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }   
+
+    header{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 10px;
+        position: relative;
+    }
+    
+    .one{
+        width: 100%;
+        height: auto;
+        flex-direction: column;   
+        position: relative;
+    }
+    
+    .section-header-black{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .second{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .text-second{
+        width: 100%;
+        height: auto;
+    }
+
+    .second-container{
+
+    }
+
+    .third{
+        width: 100%;
+        height: auto;
+    }
+
+    .fourth{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fifth{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        font-size: large;
+    }
+
+    .email{
+        
+    }
+
+    footer{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+}

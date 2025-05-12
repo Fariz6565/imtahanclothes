@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: fit-content;
+}
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   position: fixed;
+   top: 0;
+   background-color: white;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.link{
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    color: inherit;
+}
+.section-header-black{
+    margin-top: 80px;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+}
+
+
+.first{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    font-size: 30px;
+}
+
+.first-left{
+    background-image: url("/img/assets/Img/image-1.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #451316;
+    width: 50%;
+
+}
+.first-right{
+    width: 50%;
+    height: 100vh;
+    gap: 25px;
+    background-color: #451316;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+
+}
+
+.shopnow{
+    width: 100px;
+    height: 50px;
+    border: 0px;
+}
+
+.shopnow:hover{
+    color: #ffffff;
+    background-color: burlywood;
+}
+
+.shop-now{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: 0px;
+}
+
+.shop-now:hover{
+    background-color: burlywood;
+    color: #ffffff;
+}
+
+.second{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 15px;
+}
+.text-second{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.img-clas{
+    display: flex;
+    gap: 10px;
+}
+
+.third{
+    width: 100%;
+    height: 70vh;
+    background-image: url(./img/assets/Img/section-3-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+.fourth{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.clothing{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: 0px;
+}
+
+.clothing:hover{
+    background-color: burlywood;
+    color: #451316;
+}
+
+
+.accessories{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: 0px;
+}
+
+.accessories:hover{
+    background-color: burlywood;
+    color: #451316;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card-one{
+    width: 600px;
+    height: 350px;
+    background-image: url(./img/assets/Img/section-4-image1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-two{
+    width: 600px;
+    height: 350px;
+    background-image: url(./img/assets/Img/section-4-image2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-card{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 25px;
+}
+
+.fifth{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/assets/Img/section-5-image.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 150px;
+    gap: 15px;
+    font-size: 35px;
+
+}
+
+.subscribe{
+    width: 550px;
+}
+
+
+
+.email{
+    width: 300px;
+    height: 50px;
+    padding-left: 15px;
+}
+
+.join{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border: 0px;
+}
+
+footer{
+    width: 100%;
+    height: 50vh;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+ul{
+    display: flex;
+    gap: 15px;
+}
+
+li{
+    list-style: none;
+}
